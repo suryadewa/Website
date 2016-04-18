@@ -1,0 +1,23 @@
+/* animated spoiler CSS by imadenews.com */
+.imdspoilerbtn {
+    display:block;
+    margin:5px 0;
+    background: #aa65c7;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 3px 0px 0px #883da7;
+    vertical-align: middle;
+    cursor: pointer;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.imdspoiler {overflow:hidden;background: #eef0f2;}
+.imdspoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+.imdspoilerbtn[value="Reveal Hidden Contents"] + .imdspoiler > div {margin-top:-100%;}
+.imdspoilerbtn[value="Hide Contents"] + .imdspoiler {padding:5px;} 
