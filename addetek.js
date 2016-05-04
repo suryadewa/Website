@@ -27,7 +27,7 @@ function hidepage() {
 }
 document.write('<link rel="stylesheet" href="'+ linkcss +'" type="text/css">');
 
-function fnsantiy() {
+function jAntiBlock() {
     jQuery(function () {
         jQuery(document).ready(function () {
             setTimeout("Checking();", 1000);
@@ -35,4 +35,4 @@ function fnsantiy() {
         });
     });
 }
-fnsantiy();// JavaScript Document
+jAntiBlock();// JavaScript Document
