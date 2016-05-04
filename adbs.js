@@ -31,7 +31,7 @@ function fnsantiy() {
     jQuery(function () {
         jQuery(document).ready(function () {
             setTimeout("Checking();", 1000);
-            jQuery("body").append('<div id="alert"><p><a href="https://4.bp.blogspot.com/-IAIoqRWeTgE/VyoUMHKXPDI/AAAAAAAAIl8/oJqZWnwew_A__FXuxGzs7IS1hTd_2DY0wCLcB/s1600/Stop%2BAdBlock.png"><img border="0" height="125" src="https://4.bp.blogspot.com/-IAIoqRWeTgE/VyoUMHKXPDI/AAAAAAAAIl8/oJqZWnwew_A__FXuxGzs7IS1hTd_2DY0wCLcB/s200/Stop%2BAdBlock.png" width="200" /></a><br /><h2>ADBLOCK DETECTED</h2><br/><span>Please Disable Adblocker and Refresh (F5) to continue visiting This Site. <br/></span></p></div>');
+            jQuery("body").append('<div id="alert"><a href="https://4.bp.blogspot.com/-IAIoqRWeTgE/VyoUMHKXPDI/AAAAAAAAIl8/oJqZWnwew_A__FXuxGzs7IS1hTd_2DY0wCLcB/s1600/Stop%2BAdBlock.png"><img border="0" height="125" src="https://4.bp.blogspot.com/-IAIoqRWeTgE/VyoUMHKXPDI/AAAAAAAAIl8/oJqZWnwew_A__FXuxGzs7IS1hTd_2DY0wCLcB/s200/Stop%2BAdBlock.png" width="200" /></a><br /><p><h2>ADBLOCK DETECTED</h2><br/><span>Please Disable Adblocker and Refresh (F5) to continue visiting This Site. <br/></span></p></div>');
         });
     });
 }
