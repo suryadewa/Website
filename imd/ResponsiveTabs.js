@@ -2,7 +2,7 @@
 // www.imadenews.com
 (function ($) {
     $.fn.extend({
-        easyResponsiveTabs: function (options) {
+ResponsiveTabs: function (options) {
             //Set the default values, use comma to separate the settings, example:
             var defaults = {
                 type: 'default', //default, vertical, accordion;
